@@ -6,7 +6,9 @@ reto1 HPC jacobi1D
 gcc jacobiSecuencial.c -o jacobiSecuencialExe
 
 gcc -O1 jacobiSecuencial.c -o jacobiSecuencialExe
+
 gcc -O2 jacobiSecuencial.c -o jacobiSecuencialExe
+
 gcc -O3 jacobiSecuencial.c -o jacobiSecuencialExe
 
 ejecutar pruebas
