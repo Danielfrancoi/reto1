@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
   n = (argc > 1) ? atoi(argv[1]) : 100;
   nsteps = (argc > 2) ? atoi(argv[2]) : 100;
   fname = (argc > 3) ? argv[3] : NULL;
-  num_threads = (argc > 4) ? atoi(argv[4]) : 4; //omp_get_max_threads();
+  num_threads = (argc > 4) ? atoi(argv[4]) : omp_get_max_threads();
   h = 1.0 / n;
 
   // Set the number of threads for OpenMP

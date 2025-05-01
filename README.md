@@ -30,3 +30,11 @@ gcc -g jacobiProcesos.c -o jacobiProcesosExe
 ejecutar pruebas
 
 bash ./jacobiProcesosScript.sh
+
+## OpenMP
+
+gcc -fopenmp jacobiOpenmp.c -o jacobiOpenmp 
+
+ejecutar pruebas
+
+bash ./jacobiOpenmpScript.sh

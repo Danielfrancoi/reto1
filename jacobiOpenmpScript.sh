@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output_file="resultadoJacobiOpenmp4.csv"
+output_file="resultadoJacobiOpenmp.csv"
 
 # Comprueba si el archivo ya existe y, si no, añade los encabezados
 if [ ! -f "$output_file" ]; then
