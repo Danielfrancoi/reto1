@@ -38,3 +38,11 @@ gcc -fopenmp jacobiOpenmp.c -o jacobiOpenmp
 ejecutar pruebas
 
 bash ./jacobiOpenmpScript.sh
+
+## MPI
+
+mpicc -O2 -o jacobi_mpi jacobi_mpi.c
+
+ejecutar pruebas
+
+mpirun -np <num_procs> ./jacobi_mpi <n> <nsteps> [output_filename]
